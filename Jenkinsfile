@@ -25,7 +25,6 @@ bat 'echo === Étape 4 : Fin du build ==='
 bat 'echo SUCCESS'
 }
 }
-}
 post {
 success { echo ' Build OK' }
 failure { echo ' Build KO' }
