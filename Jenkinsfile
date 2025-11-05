@@ -1,7 +1,6 @@
 steps {
 git url: 'https://github.com/rayenyoser/test-jenkins-g3.git', branch: 'master'
 }
-}
 stage('Étape 1 : Vérification du dépôt') {
 steps {
 bat 'echo === Étape 1 : Vérification du dépôt ==='
